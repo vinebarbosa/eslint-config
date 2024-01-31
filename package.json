@@ -4,7 +4,8 @@
   "description": "ESLint configuration used by Vinícios Barbosa",
   "main": "index.js",
   "repository": {
-    "url": "https://github.com/vinebarbosa/eslint-config"
+    "type": "git",
+    "url": "git+https://github.com/vinebarbosa/eslint-config.git"
   },
   "keywords": [
     "eslint",
