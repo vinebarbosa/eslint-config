@@ -20,8 +20,8 @@ npm i -D eslint @vinebarbosa/eslint-config
 2. Create a `.eslintrc.json` file extending the config:
 ```
 {
-  "extends": "@vinebarbosa/eslint-config/react"
-  // "extends": "@vinebarbosa/eslint-config/node"
+  "extends": "@vinebarbosa/eslint-config/react" // If you are using React
+  // extends: ["next/core-web-vitals", "@vinebarbosa/eslint-config/next"] // If you are using NextJS
 }
 ```
 
