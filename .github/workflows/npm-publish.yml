@@ -18,6 +18,8 @@ jobs:
         with:
           node-version: 16
           registry-url: https://registry.npmjs.org/
+      - name: Install Dependecies
+        run: npm ci
       - name: Publish package on NPM 📦
         run: npm publish --access=public
         env:
